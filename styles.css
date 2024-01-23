@@ -36,7 +36,7 @@ main {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align:center;
 }
 
 h1 {
@@ -87,3 +87,31 @@ footer {
     padding: 2em;
 }
 
+ul {
+    text-align: center; 
+    list-style-position: inside; 
+}
+
+ol {
+    text-align: center; 
+    list-style-position: inside;     
+}
+
+a:link {
+    color: blue;
+}
+
+
+a:visited {
+    color: purple;
+}
+
+
+a:hover {
+    color: red;
+}
+
+
+a:active {
+    color: green;
+}
