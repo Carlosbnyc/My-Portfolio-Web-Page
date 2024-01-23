@@ -16,32 +16,52 @@ header {
 
 .profile-image {
     border-radius: 100%;
-    width: 200px; /* Adjust the size as needed */
-    height: 200px; /* Adjust the size as needed */
+    width: 200px; 
+    height: 200px; 
     object-fit: cover; 
-    margin-right: 10px; /* Add some margin to separate the image from the text */
+    margin-right: 10px;
 }
 
+.spotify {
+    position: fixed;
+    max-width:fit-content
+}
 
-section {
+main {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
     max-width: 800px;
     margin: 2em auto;
     padding: 2em;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 h1 {
-    font-size: 2.5em;
-    color: #2c9cd0;
+    font-size: 40px;
+    font-family:cursive;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 18px;
     line-height: 1.5;
+    
 }
 
+article {
+    font-size: 1.2em;
+    line-height: 1.5;
+
+}
 button {
     padding: 1em 2em;
     font-size: 1.2em;
@@ -57,6 +77,13 @@ button:hover {
     background-color: #555;
 }
 
-.contact-me {
-    text-align:  center;
+footer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #c1b7b7;
+    max-width: 800px;
+    border-radius: 8px;
+    margin: 2em auto;
+    padding: 2em;
 }
+
